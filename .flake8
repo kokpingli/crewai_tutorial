@@ -1,0 +1,8 @@
+[flake8]
+exclude = venv
+# This sets the maximum line length to 88 characters, which is the default line length used by black
+max-line-length = 88
+# This ignores specific warnings:
+# E203: Whitespace before : (black's formatting is correct).
+# E501: Line too long (black handles line length).
+extend-ignore = E203, E501
