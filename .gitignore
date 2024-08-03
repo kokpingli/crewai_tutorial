@@ -1,5 +1,7 @@
 # Environment variables
 .env
+.env_openai
+.env_ollama
 
 # Virtual environment
 venv/
